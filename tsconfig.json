@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    // не важно, так как мы собираем с помощью webpack
+    "outDir": "./dist/",
+    // Подсвечиват все места, где не указан тип
+    "noImplicitAny": true,
+    "module": "ESNext",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "moduleResolution": "node", // или "classic"
+    // esModuleInterop позволяет работать с пакетами, которые используют
+    // commonjs (где используется require() и module.exports) как с 
+    // обычными пакетами с помощью import
+    "esModuleInterop": true,
+    // Если какая-то библиотека не имеет default import,
+    // лоадеры вроде ts-loader или babel-loader автоматически 
+    // создают их вместо такого импорта. То есть вместо
+    // import * as React from "react"
+    // можно писать:
+    // import React from "react"
+    "allowSyntheticDefaultImports": true,
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    },
+  },
+}
