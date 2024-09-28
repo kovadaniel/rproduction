@@ -20,6 +20,8 @@
     // можно писать:
     // import React from "react"
     "allowSyntheticDefaultImports": true,
+    // для абсолютного импорта
+    "baseUrl": "."
   },
   "ts-node": {
     "compilerOptions": {
