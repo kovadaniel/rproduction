@@ -21,7 +21,10 @@
     // import React from "react"
     "allowSyntheticDefaultImports": true,
     // для абсолютного импорта
-    "baseUrl": "."
+    "baseUrl": ".",
+    "paths": {
+      "*": ["./src/*"]
+    }
   },
   "ts-node": {
     "compilerOptions": {
