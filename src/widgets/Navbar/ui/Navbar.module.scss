@@ -3,12 +3,11 @@
   height: var(--navbar-height);
   background-color: var(--inverted-bg-color);
   display: flex;
-  align-items: center;
-  justify-content: space-between;
   padding: 20px;
 }
 
 .links {
+  margin-left: auto;
   display: flex;
   align-items: center;
 }
