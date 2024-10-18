@@ -5,7 +5,7 @@ import { classNames } from "shared/lib/classNames/classNames";
 import classes from "./Sidebar.module.scss"
 import { SidebarProps } from "./Sidebar.types";
 import { ThemeSwitcher } from "widgets/ThemeSwitcher";
-import { Button, ThemeButton } from "shared/ui/Button";
+import { Button } from "shared/ui/Button";
 import { LangSwitcher } from "widgets/LangSwitcher";
 
 export const Sidebar = ({ className }: SidebarProps) => {

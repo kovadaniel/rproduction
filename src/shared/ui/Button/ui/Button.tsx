@@ -9,7 +9,7 @@ export const Button = ({
   ...props
 }: ButtonProps) => {
   return (
-    <button 
+    <button
       className={classNames(classes.Button, {}, [className, classes[theme]])}
       {...props}
     >
