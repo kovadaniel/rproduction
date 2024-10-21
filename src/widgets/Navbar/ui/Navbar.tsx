@@ -24,7 +24,7 @@ export const Navbar = ({ className }: NavbarProps) => {
           to="/about"
           className={classes.link}
         >
-          {t("About us")} 
+          {t("About us")}
         </AppLink>
       </div>
     </div>

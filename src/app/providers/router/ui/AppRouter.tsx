@@ -20,5 +20,5 @@ const AppRouter = () => {
     </Suspense>
   );
 }
- 
+
 export default AppRouter;
